@@ -1,0 +1,24 @@
+{
+  "name": "schlaus/superserializer",
+  "description": "SuperSerializer.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Klaus Karkia",
+      "email": "klaus@karkia.fi"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Schlaus\\": "./src/Schlaus/"
+    }
+  },
+  "require": {
+    "jeremeamia/superclosure": "~2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*",
+    "satooshi/php-coveralls": "dev-master"
+  }
+}
